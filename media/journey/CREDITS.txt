@@ -1,0 +1,26 @@
+Jupiter, Saturn (+ring), Neptune, Mars, Venus: Solar System Scope, CC BY 4.0.
+Deep-sky plates reuse /media/plates (credits in lib/plates.ts).
+Mercury colour + bump (23K): supplied by the site owner in Mercurio.fbx (MESSENGER-derived global mosaic).
+Saturn colour + ring colour/alpha: supplied by the site owner (Saturn.c4d texture pack).
+Earth ocean mask (16K land/ocean): supplied by the site owner in earth-00.glb.
+Sky stars: 15,656 Hipparcos stars (VizieR I/239/hip_main), scripts/journey/sky_stars.py.
+Cosmic web: Zel'dovich-approximation particles, BBKS LCDM spectrum, 600 Mpc box, scripts/journey/cosmic_web.py (simulation).
+Earth day: NASA Blue Marble Next Generation, January 2004 (public domain). Earth night + clouds, Sun, Uranus: Solar System Scope, CC BY 4.0. Aurora modelled.
+Moon: NASA SVS CGI Moon Kit, LROC colour (8K) and LOLA relief (64 ppd, slopes exaggerated 1.5x), public domain.
+CMB: Planck SMICA 2015 (COM_CMB_IQU-smica-field-Int_2048_R2.01), ESA/Planck via NASA IRSA; 0.8% near the galactic plane inpainted (scripts/journey/planck_map.py).
+Cutaway: 2D Zel'dovich slice, scripts/journey/web_slice.py (simulation).
+Sgr A*: COSMOS Singularity Observatory model; GRMHD from the Illinois v3 library (Dhruv et al. 2025, ApJS 277, 16), CC BY 4.0, MAD a=+0.9375, dumps resampled by scripts/journey/grmhd_volume.py. Brightness compressed, colour false.
+Sky: NASA/Goddard SVS Deep Star Maps 2020 (Gaia DR2), milkyway_2020_8k_gal, denoised off the plane. Fallback still: ESO/S. Brunier (eso0932a), CC BY 4.0.
+Orion: NASA, ESA, M. Robberto (STScI/ESA) and the HST Orion Treasury Project (heic0601a); stars separated, depth illustrative (scripts/journey/sky_orion.py).
+Milky Way: model, arm phases and pitch after Reid et al. 2019. Andromeda: model from published structure (scripts/journey/galaxies.py).
+Sun surface, Kuiper belt bodies: modelled.
+Piano (Wikimedia Commons): Satie, Gnossiennes Nos. 1-3 (La Pianista, public domain); Debussy, Clair de lune; Chopin, Nocturne Op. 9 No. 2 and Nocturne in C-sharp minor B. 49 (Frank Levy, public domain), Nocturne Op. 32 No. 2 (Olga Gurevich, public domain), Nocturne Op. 62 No. 2 (Luke Faulkner, public domain), Prelude Op. 28 No. 4 (Ivan Ilic, CC BY 3.0), Prelude Op. 28 No. 15 (Musopen, CC0); Schumann, Traumerei and The Poet Speaks (Musopen); Schubert, Impromptu D. 899 No. 3 (Chiara Bertoglio, CC BY 3.0). The Chopin nocturnes are the lossless FLAC masters; the other files are the originals as uploaded. Played as recorded (no filtering or added reverb).
+Magellanic Clouds, M33, Omega Centauri, dwarf planets: models (scripts/journey/satellites.py and engine). Great Wall: illustrative, after Horvath et al. 2014 (scripts/journey/webs.py).
+Helix: ESO (eso0907a). Pillars, Carina, Crab: NASA, ESA, CSA, STScI (weic2216a, weic2205a, weic2326a); depth illustrative.
+Pluto: NASA/JHUAPL/SwRI New Horizons; USGS Astrogeology 300 m mosaic and DEM (Jul 2017); MVIC colour map. Unseen far south filled (scripts/journey/pluto.py).
+Mars (8K), Venus atmosphere (4K): Solar System Scope, CC BY 4.0, via Wikimedia Commons.
+Carina (weic2205a), Pillars (weic2216b), Crab (weic2326a): NASA, ESA, CSA, STScI, full-resolution originals; Helix (eso0907a): ESO/VISTA/J. Emerson. Stars lifted out, depth illustrative (scripts/journey/nebula.py).
+Moon and Pluto horizon shadows marched over LOLA and New Horizons heights.
+Stars: ESA Gaia DR3, 1,247,240 sources with G < 11 (gaiadr3.gaia_source via gaia.aip.de TAP), scripts/journey/gaia_stars.py; used for the sky and the 3D neighbourhood within ~4 kpc.
+16K detail tiles (scripts/journey/tiles.py): Earth from NASA Blue Marble NG 21600 px; Pluto from the USGS New Horizons 300 m mosaic; Moon slopes from LOLA 64 ppd.
+Local dust: Edenhofer, Zucker, Frank et al. (2024, A&A 685, A82), 3D dust map to 1.25 kpc (Zenodo 10658339), resampled to a 256^3 cube (scripts/journey/dust3d.py).
